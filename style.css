@@ -68,6 +68,16 @@ body{
     justify-content: center;
     align-items: center;
 }
-.principal__secundaria{
-    width: 30%;
+.secundaria__conteudo{
+    width: 40%;
+    gap: 0.5rem;
+}
+.secundaria__conteudo--texto{
+    font-size: 3rem;
+    font-weight: 588;
+}
+.secundaria__conteudo--paragrafo{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
 }
