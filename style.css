@@ -62,13 +62,11 @@ body{
     text-align: center;
 }
 .secundaria{
-    height: 100vh; /* Ocupa toda a tela */
-    background-image: url(img/Combo.png);
-    background-size: cover;
-    background-position: center;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 2rem;
+}
+.principal__secundaria{
+    width: 30%;
 }
