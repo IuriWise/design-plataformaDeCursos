@@ -4,6 +4,7 @@
     --branco-secundario: #F9F9F9;
     --cor-de-fundo: #00030C;
     --cor-do-botao: #167BF7;
+    --font-principal:"Inter", sans-serif;
 }
 body{
     box-sizing: border-box;
@@ -16,7 +17,7 @@ body{
     background-position: center;
     height: 100vh;
     background-repeat: no-repeat;
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-principal);
 }
 .principal__conteudo{
     width: 35%;
@@ -63,7 +64,7 @@ body{
 }
 .secundaria{
     height: 100vh;
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-principal);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,21 +81,24 @@ body{
     font-weight: 588;
 }
 .secundaria__conteudo--paragrafo{
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-principal);
     font-size: 1rem;
     font-weight: 200;
-    line-height: 25px;
+    line-height: 1.4;
 }
 .parte3{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 4.375rem;
 }
 .parte3__conteudo{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    font-family: var(--font-principal);
+    line-height: 1.4;
+    width: 40%;
     gap: 1rem;
 }
 .parte3__conteudo--botao{
@@ -106,6 +110,7 @@ body{
     border: solid 1px var(--cor-do-botao);
     background-color: var(--cor-do-botao);
     border-radius: 8px;
+    font-weight: 200;
     width: 162px;
     height: 56px;
 }
