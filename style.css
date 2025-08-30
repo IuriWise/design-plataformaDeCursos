@@ -67,8 +67,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 4.3125rem;
 }
 .secundaria__conteudo{
+    display: flex;
+    flex-direction: column;
     width: 40%;
     gap: 0.5rem;
 }
@@ -80,4 +83,5 @@ body{
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     font-weight: 200;
+    line-height: 25px;
 }
