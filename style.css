@@ -85,3 +85,27 @@ body{
     font-weight: 200;
     line-height: 25px;
 }
+.parte3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parte3__conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 1rem;
+}
+.parte3__conteudo--botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--branco-principal);
+    border: solid 1px var(--cor-do-botao);
+    background-color: var(--cor-do-botao);
+    border-radius: 8px;
+    width: 162px;
+    height: 56px;
+}
