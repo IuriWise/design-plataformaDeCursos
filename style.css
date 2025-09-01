@@ -114,3 +114,10 @@ body{
     width: 162px;
     height: 56px;
 }
+.parte4{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.75rem;
+}
