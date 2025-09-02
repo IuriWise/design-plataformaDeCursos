@@ -121,3 +121,17 @@ body{
     align-items: center;
     gap: 2.75rem;
 }
+.parte4__conteudo{
+    font-family: var(--font-principal);
+    display:flex;
+    width: 20%;
+    flex-direction: column;
+    gap: 8px;
+}
+.parte4__conteudo--texto{
+    font-size: 3rem;
+}
+.parte4__conteudo--paragrafo{
+    font-size: 1rem;
+    font-weight: 200;
+}
