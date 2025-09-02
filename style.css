@@ -124,8 +124,8 @@ body{
 .parte4__conteudo{
     font-family: var(--font-principal);
     display:flex;
-    width: 20%;
     flex-direction: column;
+    width: 36%;
     gap: 8px;
 }
 .parte4__conteudo--texto{
