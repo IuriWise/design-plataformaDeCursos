@@ -26,24 +26,27 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap:2rem;
 }
 .principal__conteudo--texto{
     font-size: 1.75rem;
     font-weight: 588;
     align-self: center;
+    margin-bottom: 22px;
 }
 .principal__conteudo--paragrafo{
     font-size: 1rem;
 }
 .principal__conteudo--entrelinha{
     font-size: 0.75rem;
+    font-weight: 100;
 }
 .principal__conteudo--img{
     width: 21.75rem;
     height: auto;
 }
 .principal__conteudo--botao1{
+    margin-top: 3.375rem;
+    margin-bottom: 1rem;
     padding: 1rem;
     width: 32rem;
     text-decoration: none;
@@ -54,6 +57,7 @@ body{
     text-align: center;
 }
 .principal__conteudo--botao2{
+    margin-bottom: 10px;
     padding: 1rem;
     width: 32rem;
     text-decoration: none;
