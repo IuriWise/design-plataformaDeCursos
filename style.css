@@ -141,12 +141,23 @@ body{
     font-weight: 200;
     line-height: 1.4
 }
+.parte5{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: var(--font-principal);
+}
 .parte5__conteudo{
-
+    font-weight: 600;
+    font-size: 48px;
 }
 .parte5__imagens{
-
+    margin-top:40px;
+    margin-bottom: 1rem;
 }
 .parte5__paragrafo{
-
+    font-size: 2rem;
+    font-weight: 500;
 }
