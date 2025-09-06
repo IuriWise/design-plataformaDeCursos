@@ -172,3 +172,33 @@ body{
 .parte5__paragrafo--celular{
     margin-left: 20px;
 }
+.rodape{
+    display: flex;
+    flex-direction: column;
+    margin: 7.5rem 6.25rem;
+    font-family: var(--font-principal);
+}
+.rodape__alura{
+    align-self: center;
+    width: 7%;
+    margin-bottom: 2.5rem ;
+}
+.rodape__linhas{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    margin-bottom: 24px;
+}
+.rodape__paragrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 1.5rem;
+    gap:10px;
+    font-size: 0.875rem;
+    font-weight: 150;
+}
+
